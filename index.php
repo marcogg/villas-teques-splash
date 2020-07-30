@@ -28,9 +28,9 @@
 		<!--END:Preloader-->
 		<header>
 			<!--BEGIN: NAVIGATION-->
-			<nav>
+			<nav class=" light-blue darken-4">
 				<div class="nav-wrapper">
-					<a href="index.php" class="brand-logo"><img src="img/logo.png" class="responsive-img"></a>
+					<a href="index.php" class="brand-logo"><img src="img/logo.png" class="responsive-img" width="150"></a>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
 						<li><a href="">Departamentos</a></li>
 						<li><a href="">Amenidades</a></li>
