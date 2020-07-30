@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5 Transitional//EN">
+<html>
+	<head>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="shortcut icon" href="./webglPlayer/logo.ico" type="image/x-icon"/>
+		<link rel="icon" href="./webglPlayer/logo.ico" type="image/x-icon"/>
+		<title>iVisit360 Player</title>
+
+		<script language="javascript">
+			var p_width = 320;//player width (div id="PlayerWebGL" and div id="divuser")
+			var p_height = 240;//player height (div id="PlayerWebGL")
+
+			window.addEventListener( 'resize', onWindowResizeUser, false );
+			function onWindowResizeUser(){
+				document.getElementById('divuser').style.marginLeft=(window.innerWidth/2-p_width/2)>0?(window.innerWidth/2-p_width/2)+'px':'0px';
+			}
+			function initUser(){
+				document.getElementById('divuser').style.width=p_width+'px';//should not change
+
+				document.getElementById('divuser').style.marginTop='100px';
+				document.getElementById('divuser').style.marginLeft=(window.innerWidth/2-p_width/2)+'px';
+			}
+		</script>
+	</head>
+
+<body onload="initUser();initPlayerWebGL();">
+
+<script type="text/javascript" src="./webglPlayer/PlayerWebGL.js"></script>
+
+	<div id="divuser" > <!-- users must use this tag in css to change the position of the div (with id="PlayerWebGL") in the webpage, and modify the onWindowResizeUser() and initUser() functions in the head tag. -->
+
+		<!------------------------------------------>
+		<div id="PlayerWebGL">
+			<iframe id="frameWebGL" src="./PanoramaV2_WebGL_Fullpage.html" frameborder="0"></iframe>
+		</div>
+		<!------------------------------------------>
+
+	</div>
+	<script src="./webglPlayer/jquery-1.9.1.min.js"></script>
+	<script>
+		$('iframe').load(function(){
+			$(this).contents().find("#bouton_Fullscreen").on('click', function(event) { toggleFullPlayerWebGL(); });
+		});
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+@font-face{
+	font-family: HappySans;
+	src:url(../fonts/happy-sans.ttf);
+}
+
+
+/*PRELOADER*/
+.preloader-bg{
+	background-color: #004b88;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 500;
+}
+
+.preloader-center{
+	-ms-flex-align:center!important;
+	align-items:center!important;
+	margin: auto;
+
+}
+
+.centered{
+	position: relative;
+	top: 45%;
+}
+
+.no-side-margins{
+	padding: 0% !important;
+}
+
+body{
+	background-color: #004b88;
+}
+/*--------------SLIDERS-----------------*/
+
+/*SLIDER !*/
+.webp .slider1{
+	background-image: url('../img/slider/departamentos-morelos.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.no-webp .slider1{
+	background-image: url('../img/slider/departamentos-morelos.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*SLIDER 2*/
+.webp .slider2{
+	background-image: url('../img/slider/departamentos-tequesquitengo.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.no-webp .slider2{
+	background-image: url('../img/slider/departamentos-tequesquitengo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*SLIDER 3*/
+.webp .slider3{
+	background-image: url('../img/slider/inmuebles-morelos.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.no-webp .slider3{
+	background-image: url('../img/slider/inmuebles-morelos.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ .carousel h2{
+	font-family: HappySans;
+	font-size: 5rem !important;
+}
