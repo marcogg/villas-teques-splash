@@ -28,4 +28,10 @@ $(window).on('load', function(
 
      //SIDENAV
     $('.sidenav').sidenav();
+
+    //MODALS
+    $('.modal').modal();
+
+    //CAROUSEL DEPARTAMENTOS
+    $('.carousel').carousel();
  });

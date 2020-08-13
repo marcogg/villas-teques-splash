@@ -1,12 +1,16 @@
+/*BEGIN:FONTS*/
 @font-face{
 	font-family: HappySans;
 	src:url(../fonts/happy-sans.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*END:FONTS*/
 
 /*PRELOADER*/
 .preloader-bg{
-	background-color: #004b88;
+	background-color: transparent /*#004b88*/;
+    background-image: linear-gradient(210deg, #09bbf0 37%, #1856b1 87%);
 	overflow-x: hidden;
 	overflow-y: hidden;
 	width: 100vw;
@@ -26,13 +30,25 @@
 	position: relative;
 	top: 45%;
 }
+/*END: PRELOADER*/
 
 .no-side-margins{
 	padding: 0% !important;
 }
 
 body{
-	background-color: #004b88;
+	background-color: transparent /*#004b88*/;
+    background-image: linear-gradient(210deg, #F009CA 37%, #A529F2 87%);
+}
+
+nav{
+	color: #163f78; 
+}
+
+footer{
+	background-color: #FF1DD2;
+	padding: 6%;
+	box-shadow: -4px -6px
 }
 /*--------------SLIDERS-----------------*/
 
@@ -41,44 +57,494 @@ body{
 	background-image: url('../img/slider/departamentos-morelos.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 500px;
+	height: 600px;
+  	clip-path: circle(280px at 500px)/*polygon(0% 0%, 100% 0%, 100% 100%, 69% 79%, 0% 100%)*/;
+  	background-attachment: fixed;
+  	filter: saturate(1.5);
 }
 
 .no-webp .slider1{
 	background-image: url('../img/slider/departamentos-morelos.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+  	clip-path: circle(280px at 500px)/*polygon(0% 0%, 100% 0%, 100% 100%, 69% 79%, 0% 100%)*/;
+  	background-attachment: fixed;
+  	filter: saturate(1.5);
 }
+ .caption-slider1{
+ 	position: absolute;
+ 	top: 25vh;
+ 	right: 25vw;
+ 	z-index: 5;
+ 	font-weight: 800 !important;
+	font-size: 7rem !important;
+ /*	-webkit-text-stroke: 1px white;*/
+ }
+ /*MOBILE SLIDER 1*/
+		 @media screen and (max-width: 992px){
+		 	.webp .slider1{
+			background-image: url('../img/slider/departamentos-morelos.webp');
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+		  	clip-path: /*circle(26% at 38%);*/polygon(0% 0%, 100% 0%, 100% 100%, 69% 79%, 0% 100%);
+		  	background-attachment: fixed;
+		  	filter: saturate(1.5);
+		}
+
+			.no-webp .slider1{
+				background-image: url('../img/slider/departamentos-morelos.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+			  	clip-path: circle(26% at 38%);/*polygon(0% 0%, 100% 0%, 100% 100%, 69% 79%, 0% 100%)*/
+			  	background-attachment: fixed;
+			  	filter: saturate(1.5);
+			}
+
+			.caption-slider1{
+			 	position: absolute;
+			 	top: 25%;
+			 	left: 7%;
+			 	z-index: 5;
+			 	font-weight: 800 !important;
+				font-size: 7rem !important;
+			 /*	-webkit-text-stroke: 1px white;*/
+			 }
+		}
 
 /*SLIDER 2*/
 .webp .slider2{
-	background-image: url('../img/slider/departamentos-tequesquitengo.webp');
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 500px;
-}
-
-.no-webp .slider2{
-	background-image: url('../img/slider/departamentos-tequesquitengo.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-/*SLIDER 3*/
-.webp .slider3{
 	background-image: url('../img/slider/inmuebles-morelos.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 500px;
+	clip-path: circle(280px at 500px);
+	height: 600px;
 }
 
-.no-webp .slider3{
+.no-webp .slider2{
 	background-image: url('../img/slider/inmuebles-morelos.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	clip-path: circle(280px at 500px);
 }
 
- .carousel h2{
-	font-family: HappySans;
+ .caption-slider2{
+ 	position: absolute;
+ 	top: 25%;
+ 	left: 50%;
+ 	z-index: 5;
+ 	font-weight: 800 !important;
 	font-size: 5rem !important;
+ /*	-webkit-text-stroke: 1px white;*/
+ }
+
+ /*BEGIN: MOBILE SLIDER 2*/
+
+
+/*SLIDER 3*/
+.webp .slider3{
+	background-image: url('../img/slider/aquazona-chica.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	clip-path: circle(280px at 500px);
+}
+
+.no-webp .slider3{
+	background-image: url('../img/slider/aquazona-chica.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	clip-path: circle(280px at 500px);
+}
+
+ .caption-slider3{
+ 	position: absolute;
+ 	top: 25%;
+ 	left: 30%;
+ 	z-index: 5;
+ 	font-weight: 800 !important;
+	font-size: 5rem !important;
+ /*	-webkit-text-stroke: 1px white;*/
+ }
+/*SLIDER 4*/
+.webp .slider4{
+	background-image: url('../img/slider/lago-tequesquitengo.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	clip-path: circle(280px at 500px)/*circle(23% at 37%)*/;
+}
+
+.no-webp .slider4{
+	background-image: url('../img/slider/lago-tequesquitengo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	clip-path: circle(280px at 500px)/*circle(23% at 37%)*/;
+}
+
+ .caption-slider4{
+ 	position: absolute;
+ 	top: 25%;
+ 	left: 40%;
+ 	z-index: 5;
+ 	font-weight: 800 !important;
+	font-size: 4rem !important;
+ /*	-webkit-text-stroke: 1px white;*/
+ }
+
+ /*END: SLIDERS*/
+ .carousel h2{
+	font-family: 'HappySans';
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 7px 7px 1px rgba(255,0,98,1);
+
+  /*background: -webkit-linear-gradient(#ff9a0a, #FFBD0A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	color: #FFBCFD;
+	font-size: 2.8rem !important;
+
+}
+
+@media screen and (min-width: 992px){
+	h1{
+		font-size: 7rem;
+	}
+}
+/*--------------------BEGIN: MANCHA*/
+.mancha{
+	background-image: url('../img/manchas.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+	display: flex;
+	z-index: -1 !important;
+	left:30%;
+	animation: animacionmancha 3s ease-in-out infinite alternate;
+	overflow-x: hidden;
+	width: 50%;
+	height: 82vh;
+}
+
+@keyframes animacionmancha{
+	0% {
+		transform: scale(.8);
+		-webkit-transform: scale(0.8);
+	}
+	100%{
+		transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: rotate(15deg);
+		-webkit-transform: rotate(15deg);
+	}
+}
+
+/*------------------------FIN:MANCHA*/
+
+
+.carousel p{
+	font-family: 'Montserat', sans-serif;
+	font-size: 2rem !important;
+	text-transform: uppercase;
+	font-weight: 800 !important;
+	line-height: 2rem !important;
+	color: #ff9a0a !important;
+	text-shadow: 3px 3px 1px #082d6b;
+
+}
+
+.subtitle-m{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: #ffbcfc;
+}
+
+/*------------BEGIN: DEPARTAMENTO-TEQUES------------*/
+	.contenedor-ruedas{
+	position: absolute;
+	top: 18vh;
+	z-index: -1;
+	overflow: hidden !important;
+		
+	}
+	@media screen and (max-width: 992px){
+		.contenedor-ruedas{
+			position: relative;
+			top: 5vh;
+				
+			}
+	}
+	#ruedas{
+		animation: animatedBg 3s infinite ease-in-out alternate;
+	}
+
+	@keyframes animatedBg{
+		0% {
+		transform: scale(.6);
+		-webkit-transform: scale(0.6);
+		transform: rotate(1deg);
+		-webkit-transform: rotate(1deg);
+	}
+	100%{
+		transform: scale(.9);
+		-webkit-transform: scale(0.9);
+		transform: rotate(8deg);
+		-webkit-transform: rotate(8deg);
+	}
+	}
+
+
+
+	.circle-path{
+		clip-path: circle(50% at 50% 50%);
+	}
+
+	    #triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid red;
+    }
+
+    .calltoaction{
+    	background-image: url(../img/depas-alberca.jpg);
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	clip-path: polygon(0 26%, 35% 0, 42% 21%, 82% 6%, 100% 29%, 100% 100%, 62% 80%, 22% 100%, 0 86%);
+    	height: 600px;
+    	width: 100%;
+    }
+	.btnBrochure{
+		display: block !important;
+		margin: auto !important;
+	}
+
+	.center-btn{
+		position: relative;
+		top: 30%;
+		left: 10%;
+	}
+/*------------END: DEPARTAMENTO-TEQUES------------*/
+
+
+.trianglesBg{
+	position: absolute;
+	left: 2vw;
+	z-index: -1;
+	overflow: hidden !important;
+}
+#triangle-up1 {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 80px solid #00ccd2;
+      position: relative;
+      margin-top: 2%;
+      animation: triangulos 2s  infinite alternate ease-in-out;
+    }
+#triangle-up2 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 80px solid #00ccd2;
+  position: relative;
+  margin-top: 2%;
+  animation: triangulos 3s  infinite alternate ease-in-out;
+}
+#triangle-up3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 80px solid #00ccd2;
+  position: relative;
+  margin-top: 2%;
+  animation: triangulos 1s  infinite alternate ease-in-out;
+}
+
+@keyframes triangulos{
+	0%{
+		border-bottom: 80px solid #00ccd2;
+	}
+	100%{
+		border-bottom: 60px solid #7f54a1;
+	}
+}
+.amenidades-icons{
+	color: #fce4ec !important;
+	text-align: center;
+	background-color: #353586;
+    border-radius: 15%;
+    height: 180px;
+    border: solid #e50ed0 3px;
+}
+
+.triangle-path{
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.contenedor-circulos{
+	position: absolute;
+	left: 5vw;
+	z-index: -1;
+	overflow: hidden !important;
+}
+
+#circulo1{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: #00ccd2 solid 10px;
+	background-color: transparent;
+	animation: circuloa ease-in-out 2s alternate infinite;
+}
+
+#circulo2{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: #ffd000 solid 5px;
+	background-color: transparent;
+	animation: circulob ease-in-out 2s alternate infinite;
+}
+
+@keyframes circuloa{
+	to{
+		border: #004AD2 solid 5px;
+	}
+}
+
+@keyframes circulob{
+	to{
+		border: #ff0062 solid 15px;
+	}
+}
+
+
+.contenedor-chevron{
+	position: relative;
+	top: 20px;
+	z-index: -1;
+	overflow: hidden !important;
+	height: 155px;
+	
+}
+
+#chevron1{
+      position: relative;
+      text-align: center;
+      padding: 12px;
+      margin-bottom: 6px;
+      height: 60px;
+      width: 150px;
+      transform: rotate(180deg);
+      -webkit-transform:rotate(180deg);
+      
+    }
+    #chevron1:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 35%;
+      width: 51%;
+      background: #ffd000;
+      transform: skew(0deg, 26deg);
+      animation: aqui 1s infinite ease-in-out alternate;
+    }
+    #chevron1:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 35%;
+      width: 50%;
+      background: #ffd000;
+      transform: skew(0deg, -26deg);
+      animation: aqui 1s infinite ease-in-out alternate;
+    }
+
+    #chevron2{
+      position: relative;
+      text-align: center;
+      padding: 12px;
+      margin-bottom: 6px;
+      height: 60px;
+      width: 150px;
+      transform: rotate(180deg);
+      -webkit-transform:rotate(180deg);
+    }
+    #chevron2:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 35%;
+      width: 51%;
+      background: #00ccd2;
+      transform: skew(0deg, 26deg);
+      animation: aqui-ii 1s infinite ease-in-out alternate;
+    }
+    #chevron2:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 35%;
+      width: 50%;
+      background: #00ccd2;
+      transform: skew(0deg, -26deg);
+      animation: aqui-ii 1s infinite ease-in-out alternate;
+    }
+  
+@keyframes aqui{
+	0%{
+		top: 0px;
+		
+	}
+	100%{
+		top:-20px;
+		background: #3AF0F5;
+	}
+}
+@keyframes aqui-ii{
+	0%{
+		top: 0px;
+		
+	}
+	100%{
+		top:-10px;
+		background: #ffd000;
+	}
+}
+
+
+/*FOOTER*/
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
+footer a{
+	color: #ff7ee5 !important;
+	font-weight: 900;
 }

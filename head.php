@@ -15,6 +15,7 @@ crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--END: MATERIALIZE-->
 <!--BEGIN: CUSTOM STYLES-->
 <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -29,3 +30,7 @@ crossorigin="anonymous"></script>
 <link rel="icon" href="img/favicon.png" type="image/x-icon" />
 <!--MODERNIZR: DETECTS WEBP IMAGE FORMAT AVAILABILITY-->
 <script type="text/javascript" src="js/modernizr-custom.js"></script>
+<!-- AOS: ANIMATION ON SCROLL -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- AOS: ANIMATION SCROLL JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
