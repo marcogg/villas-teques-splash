@@ -39,6 +39,7 @@
 body{
 	background-color: transparent /*#004b88*/;
     background-image: linear-gradient(210deg, #F009CA 37%, #A529F2 87%);
+    overflow-x: hidden;
 }
 
 nav{
@@ -49,6 +50,17 @@ footer{
 	background-color: #FF1DD2;
 	padding: 6%;
 	box-shadow: -4px -6px
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+
+.text900{
+	font-weight: 900;
+}
+.text600{
+	font-weight: 600;
 }
 /*--------------SLIDERS-----------------*/
 
@@ -279,6 +291,7 @@ h1{
 		.contenedor-ruedas{
 			position: relative;
 			top: 5vh;
+			float: left;
 				
 			}
 	}
@@ -530,7 +543,134 @@ h1{
 	}
 }
 
+    #diamond-narrow {
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom: 70px solid #ffd000;
+      position: relative;
+      top: -50px;
+      animation: diamond 1s infinite ease-in-out alternate;
+    }
+    #diamond-narrow:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 70px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top: 70px solid #ffd000;
+      animation: diamond 1s infinite ease-in-out alternate;
+    }
+        
 
+    #diamond-narrow2 {
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom: 70px solid #00ccd2;
+      position: relative;
+      top: -50px;
+      animation: diamondii 1s infinite ease-in-out alternate;
+    }
+    #diamond-narrow2:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 70px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top: 70px solid #00ccd2;
+      animation: diamondii 2s infinite ease-in-out alternate;
+    }
+
+    @keyframes diamond{
+    	to{
+    		border: 50px solid transparent;
+    		border-top: 70px solid #7f54a1;
+    	}
+    }
+    @keyframes diamondii{
+    	to{
+    		border: 50px solid transparent;
+    		border-top: 70px solid #ff0062;
+    	}
+    }
+
+	#dona1{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background-color: transparent;
+		border: solid 5px yellow;
+		animation: donamov 2s infinite alternate ease-in-out;
+		float: right;
+	}
+
+	#dona2{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		background-color: #4a148c;
+		border: solid 5px #00ccd2;
+		animation: donamovii 3.2s infinite alternate ease-in-out;
+		float: right;
+	}
+
+	 @keyframes donamov{
+	 	to{
+	 		width: 180px
+	 		height:180px;
+	 		background-color: #00ccd2;
+	 		border: solid 5px #4a148c;
+	 	}
+	 }
+	 	 @keyframes donamovii{
+	 	to{
+	 		width: 280px
+	 		height:280px;
+	 		background-color: #7f54a1;
+	 		border: solid 5px #4a148c;
+	 	}
+	 }
+	 /*----------------------BEGIN: DEPARTAMENTOS---------------------*/
+
+td{
+	padding: 0 !important;
+}
+
+.paralelogram-clip{
+	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+.down-clip{
+	clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 50% 100%, 0 85%);
+}
+
+.recorridovirtual{
+	background-image: url('../img/sala-comedor-2rec.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 20%;
+	width: 100%;
+	height: 400px;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 50% 100%, 0 85%);
+}
+@media screen and (max-width:992px){
+	.min-height{
+	min-height: 600px;
+	}
+
+	.slider-depas{
+		position: relative !important;
+		top: 20% !important;
+	}
+}
+
+
+/*----------------------END: DEPARTAMENTOS------------------*/
 /*FOOTER*/
 .list-inline {
   padding-left: 0;

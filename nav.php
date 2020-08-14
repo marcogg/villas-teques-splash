@@ -1,7 +1,8 @@
 <nav class="transparent navbar-fixed">
 	<div class="nav-wrapper">
-		<a href="index.php" class="brand-logo"><img src="img/logo.png" class="responsive-img" width="200"></a>
+		<a href="index.php" class="brand-logo"><img src="img/logo.png" class="responsive-img" width="150"></a>
 		<ul id="nav-mobile" class="right hide-on-med-and-down">
+			<li><a href="index.php">Inicio</a></li>
 			<li><a href="departamentos.php">Departamentos</a></li>
 			<li><a href="amenidades.php">Amenidades</a></li>
 			<li><a href="promociones.php">Promociones</a></li>
@@ -18,7 +19,8 @@
 						<a href="#name"><span class="white-text name">John Doe</span></a>
 						<a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
 			</div></li> -->
-			<li><a href="departamentos">Departamentos</a></li>
+			<li><a href="index.php">Inicio</a></li>
+			<li><a href="departamentos.php">Departamentos</a></li>
 			<li><a href="amenidades.php">Amenidades</a></li>
 			<li><a href="promociones.php">Promociones</a></li>
 			<li><a href="tequesquitengo.php">Teques</a></li>

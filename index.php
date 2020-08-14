@@ -115,11 +115,12 @@
 							<source srcset="img/departamentos-con-alberca.webp" type="img/webp" class="responsive-img circle-clip">
 							<img src="img/departamentos-con-alberca.jpg" class="responsive-img circle-path">
 						</picture>
-						<div class="contenedor-ruedas">
-							<div  id="ruedas">
-								<img src="img/circulos.png">
-							</div>
+						<div class="contenedor-donas">
+							<div id="dona1"></div>
+							<div id="dona2"></div>
+							<div id="raya"></div>
 						</div>
+
 					</div>
 				</div>
 			</div>
@@ -140,7 +141,7 @@
 						<p class="pink-text text-lighten-5 center-align">Villas Teques Splash tiene amenidades para toda la familia, tu propia <b>AQUAZONA</b>, albercas, palapas, asadores, canchas deportivas, áreas verdes y más.</p>
 					</div>
 				</div>
-				<div class="row flow-text valign-wrapper">
+				<div class="row flow-text">
 					<div class="col s6 m3 l3 amenidades-icons valign-wrapper">
 						<i class="fas fa-tint fa-2x"></i>
 						<p style="font-family: HappySans">AQUAZONA</p>
@@ -209,64 +210,10 @@
 
 		<!-- END: SECTION RESUME -->
 		<!-- BEGIN:SECTION CALL TO ACTION -->
-		<section data-aos="zoom-in">
-			<div class="container-full calltoaction">
-				<div class="center-btn">
-				<div class="row">
-					<div class="col s12 m12 l12">
-						<h3 class="white-text" style="font-weight: 700; text-shadow: 5px 4px 1px rgba(255,0,98,1);">¿Quieres más información?</h3>
-					</div>
-					
-				</div>
-				<div class="row">
-					<div class="col s12 m12 l6">
-						<a class="waves-effect waves-light btn red accent-3 modal-trigger btnBrochure" href="#descargaBrochure" style="font-size: 1.5rem; font-weight: 900;">Descarga el Folleto</a>
-						
-					</div>
-				</div>
-			</div>
-			</div>
-		</section>
-		<!-- END:SECTION CALL TO ACTION -->
-		<!-- Modal Structure -->
-		<div id="descargaBrochure" class="modal">
-			<div class="modal-content">
-				<h4>Compártenos tus datos</h4>
-				<p>Y descarga más información de Villas Teques Splash</p>
-				<!-- BEGIN: BROCHURE FORM -->
-				<div class="row">
-					<form class="col s12">
-						<div class="row">
-							<div class="input-field col s12">
-								<input placeholder="Placeholder" id="name" type="text" class="validate">
-								<label for="name">Nombre y apellido</label>
-							</div>
-							<div class="input-field col s12">
-								<input id="phone" type="text" class="validate">
-								<label for="phone">Teléfono</label>
-							</div>
-						</div>
-						<div class="row">
-							<div class="input-field col s12">
-								<input id="email" type="email" class="validate">
-								<label for="email">Email</label>
-							</div>
-						</div>
-						<div class="row">
-							<div class="input-field col s12">
-								<input type="submit" name="submit_brochure" value="Ver Folleto"class="btn">
-							</div>
-						</div>
-
-					</form>
-				</div>
-				<!-- END:BROCHURE FORM -->
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
-			</div>
-		</div>
-		<!-- END: MODAL BROCHURE -->
+		<?php
+			require('calltoaction.php');
+		?>
+		<!-- END: SECTION CALL TO ACTION -->
 		<!-- BEGIN: FOOTER -->
 			<?php
 				require('footer.php');

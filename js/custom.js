@@ -31,7 +31,14 @@ $(window).on('load', function(
 
     //MODALS
     $('.modal').modal();
-
-    //CAROUSEL DEPARTAMENTOS
-    $('.carousel').carousel();
+    
+    /*DEPARTAMENTOS*/
+        //CAROUSEL DEPARTAMENTOS
+        $('.carousel').carousel();
+        //TABS
+        $('.tabs').tabs(/*{
+            swipeable:true
+        }*/);
+        //TOOLTIPS
+        $('.tooltipped').tooltip();
  });
