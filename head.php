@@ -11,11 +11,11 @@ crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>-->
 <!--FIN: BOOTSTRAP-->
 <!--INICIO: MATERIALIZE-->
- <!-- Compiled and minified CSS -->
+<!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--END: MATERIALIZE-->
 <!--BEGIN: CUSTOM STYLES-->
 <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -34,3 +34,22 @@ crossorigin="anonymous"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- AOS: ANIMATION SCROLL JS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--BEGIN: PRELOADER-->
+<center>
+<div class="preloader-bg">
+	<div class="preloader-wrapper big active centered">
+		<div class="spinner-layer spinner-blue">
+			<div class="circle-clipper left">
+				<div class="circle"></div>
+			</div>
+			<div class="gap-patch">
+				<div class="circle"></div>
+			</div>
+			<div class="circle-clipper right">
+				<div class="circle"></div>
+			</div>
+		</div>
+	</div>
+</div>
+</center>
+<!--END:Preloader-->
