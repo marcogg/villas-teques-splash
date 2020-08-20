@@ -15,15 +15,21 @@
 				font-size: 1.5rem;
 			}
 			a {
-					color: #32c5d2 !important;
+					color: #04134B !important;
+					font-size: 2rem;
+					text-transform: uppercase;
+					font-weight: 600 !important;
 				}
 		</style>
+		<?php
+		require('../../preloader.php');
+		?>
 	</head>
 	<body style="overflow: hidden;">
 		<div id="container"></div>
 		<div id="info">
-			<h1 class="text-white" style="color: white;">Modelo Olmo</h1>
-			<a href="../../index.php" target="_self" rel="noopener">Regresar al sitio</a></h1>
+			<h1 class="text-white" style="color: white;">Departamento de 2 recámaras</h1>
+			
 		</div>
 		<script type="module">
 			import * as THREE from '../build/three.module.js';
@@ -47,7 +53,7 @@
 				controls.enablePan = false;
 				controls.enableDamping = true;
 				controls.rotateSpeed = - 0.25;
-				var textures = getTexturesFromAtlasFile( "textures/cube/olmo-sala.jpg", 6 );
+				var textures = getTexturesFromAtlasFile( "textures/cube/splash-2rec.jpg", 6 );
 				var materials = [];
 				for ( var i = 0; i < 6; i ++ ) {
 					materials.push( new THREE.MeshBasicMaterial( { map: textures[ i ] } ) );
@@ -93,17 +99,21 @@
 		<div class="container display-1" style="z-index: 50000; position: absolute; bottom: 0; right: 0; left: 0;">
 			<div class="row">
 				<a href="index.html">
-					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center col-lg-offset-3">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+						
+						<h3><a href="../../index.php" target="_self" rel="noopener" class="btn btn-warning">Regresar al sitio</a></h3>
+					</div>
+					<!-- <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center col-lg-offset-3">
 						<img src="img/thumbnails/sala-comedor.jpg" class="img-thumbnail">
 						<h3 style="">Sala-Comedor</h3>
-					</div>
+					</div> -->
 				</a>
-				<a href="recamara-secundaria-olmo.html">
+				<!-- <a href="recamara-secundaria-olmo.html">
 					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center">
 						<img src="img/thumbnails/recamara-principal.jpg" class="img-thumbnail">
 						<h3 style="">Recámara Secundaria</h3>
 					</div>
-				</a>
+				</a> -->
 				<!--<a href="">
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 						<img src="img/thumbnails/sala-comedor.jpg" class="img-thumbnail">

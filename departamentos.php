@@ -58,7 +58,6 @@
 					<div class="col s12">
 						<h2 class="pink-text text-lighten-5 flow-text text-uppercase text900" style="font-size: 5rem;">¡Tú eliges!</h2>
 						<h3 class="pink-text text-lighten-5 flow-text text600">Escoge entre jardín o roof garden privado</h3>
-						
 					</div>
 				</div>
 				<!-- BEGIN: RUEDAS ANIMACION -->
@@ -81,9 +80,9 @@
 						<div class="row">
 							<div class="col s12 m7 l7">
 								<picture>
-									<source srcset="img/prototipos/2rec-garden" type="img/png" class="responsive-img">
-									<source srcset="img/prototipos/2rec-garden" type="img/webp" class="responsive-img">
-									<img src="img/prototipos/2rec-garden.png" class="responsive-img">
+									<source srcset="img/prototipos/2rec-garden" type="img/png" class="responsive-img materialboxed">
+									<source srcset="img/prototipos/2rec-garden" type="img/webp" class="responsive-img materialboxed">
+									<img src="img/prototipos/2rec-garden.png" class="responsive-img materialboxed">
 								</picture>
 							</div>
 							<div class="col s12 m5 l5">
@@ -129,15 +128,15 @@
 							<div class="col s12 m7 l7">
 								<!-- PLANTA DEPA -->
 								<picture>
-									<source srcset="img/prototipos/2rec-roof" type="img/png" class="responsive-img">
-									<source srcset="img/prototipos/2rec-roof" type="img/webp" class="responsive-img">
-									<img src="img/prototipos/2rec-roof.png" class="responsive-img">
+									<source srcset="img/prototipos/2rec-roof" type="img/png" class="responsive-img materialboxed">
+									<source srcset="img/prototipos/2rec-roof" type="img/webp" class="responsive-img materialboxed">
+									<img src="img/prototipos/2rec-roof.png" class="responsive-img materialboxed">
 								</picture>
 								<!-- PLANTA: ROOF -->
 								<picture>
-									<source srcset="img/prototipos/roof" type="img/png" class="responsive-img" usemap="#image-map">
-									<source srcset="img/prototipos/roof" type="img/webp" class="responsive-img" usemap="#image-map">
-									<img src="img/prototipos/roof.png" class="responsive-img" usemap="#image-map">
+									<source srcset="img/prototipos/roof" type="img/png" class="responsive-img materialboxed" usemap="#image-map">
+									<source srcset="img/prototipos/roof" type="img/webp" class="responsive-img materialboxed" usemap="#image-map">
+									<img src="img/prototipos/roof.png" class="responsive-img materialboxed" usemap="#image-map">
 								</picture>
 								<!-- END: ROOF -->
 							</div>
@@ -190,7 +189,7 @@
 						<div style="position: relative; top: 10%;">
 							<center>
 								<h3 class="text900 white-text text-uppercase" style="text-shadow:7px 7px 1px rgba(255,0,98,1);">Conoce el departamento virtual</h3>
-								<a href="panorama/3rec/index.html" target="_blank" class="waves-effect waves-light btn">Inicia el recorrido</a>
+								<a href="panorama/2rec/index.php" target="_blank" class="waves-effect waves-light btn">Inicia el recorrido</a>
 							</center>
 							
 						</div>

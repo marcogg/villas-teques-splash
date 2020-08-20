@@ -35,21 +35,7 @@ crossorigin="anonymous"></script>
 <!-- AOS: ANIMATION SCROLL JS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!--BEGIN: PRELOADER-->
-<center>
-<div class="preloader-bg">
-	<div class="preloader-wrapper big active centered">
-		<div class="spinner-layer spinner-blue">
-			<div class="circle-clipper left">
-				<div class="circle"></div>
-			</div>
-			<div class="gap-patch">
-				<div class="circle"></div>
-			</div>
-			<div class="circle-clipper right">
-				<div class="circle"></div>
-			</div>
-		</div>
-	</div>
-</div>
-</center>
+	<?php
+	require('preloader.php');
+	?>
 <!--END:Preloader-->

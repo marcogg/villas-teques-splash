@@ -5,12 +5,10 @@
 					<div class="col s12 m12 l12">
 						<h3 class="white-text" style="font-weight: 700; text-shadow: 5px 4px 1px rgba(255,0,98,1);">¿Quieres más información?</h3>
 					</div>
-					
 				</div>
 				<div class="row">
 					<div class="col s12 m12 l6">
 						<a class="waves-effect waves-light btn red accent-3 modal-trigger btnBrochure" href="#descargaBrochure" style="font-size: 1.5rem; font-weight: 900;">Descarga el Folleto</a>
-						
 					</div>
 				</div>
 			</div>

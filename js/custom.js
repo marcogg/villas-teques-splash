@@ -35,10 +35,16 @@ $(window).on('load', function(
     /*DEPARTAMENTOS*/
         //CAROUSEL DEPARTAMENTOS
         $('.carousel').carousel();
+        //ADD CLASS ON DESKTOP
+        
         //TABS
         $('.tabs').tabs(/*{
             swipeable:true
         }*/);
         //TOOLTIPS
         $('.tooltipped').tooltip();
+        //LIGHTBOX
+        $('.materialboxed').materialbox();
+    /*AMENIDADES*/
+        $('.slider').slider();
  });

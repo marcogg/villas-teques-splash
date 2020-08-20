@@ -671,6 +671,19 @@ td{
 
 
 /*----------------------END: DEPARTAMENTOS------------------*/
+
+/*AMENIDADES*/
+.text-shadow{
+	text-shadow: 2px 3px 4px rgba(0,0,0,.8);
+}
+
+/*END: AMENIDADES*/
+/*PROMOCIONES*/
+.header-promos{
+	
+}
+/*END: PROMOCIONES*/
+
 /*FOOTER*/
 .list-inline {
   padding-left: 0;
