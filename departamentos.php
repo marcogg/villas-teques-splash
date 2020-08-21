@@ -87,7 +87,7 @@
 							</div>
 							<div class="col s12 m5 l5">
 								<span class="pink-text text-lighten-5 flow-text">
-									<h3 class="text900 purple-text text-darken-4 text-uppercase">Modelo Garden</h3>
+									<h3 class="text900 purple-text text-darken-4 text-uppercase">Con Jardín i</h3>
 									<p class="text900 purple-text text-darken-4 text-uppercase flow-text">Área Depto: 61.40 m<sup>2</sup> + Jardín</p>
 									<table>
 										<tbody>
@@ -141,7 +141,7 @@
 								<!-- END: ROOF -->
 							</div>
 							<div class="col s12 m5 l5">
-								<h3 class="text900 purple-text text-darken-4 text-uppercase">Modelo Roof Garden</h3>
+								<h3 class="text900 purple-text text-darken-4 text-uppercase">Con Terraza Privada</h3>
 								<p class="text900 purple-text text-darken-4 text-uppercase flow-text">Área Depto: 61.40 m<sup>2</sup> + Roof Garden (23.17 m<sup>2</sup> o 27.84 m<sup>2</sup>)</p>
 								<span class="pink-text text-lighten-5 flow-text">
 									<table>

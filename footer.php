@@ -22,6 +22,7 @@
 					<li><a href=""><i class="fab fa-linkedin fa-3x"></i></a></li>
 					
 				</ul>
+				<a href="https://goo.gl/maps/eV3vBgczsyuBz5rs8" class="waves-effect waves-light btn white-text" target="_blank">Ir a la ubicación</a>
 			</div>
 			<div class="col s12 m6 l6">
 				<h4 class="pink-text text-lighten-4"><b>Contáctanos</b></h4>
