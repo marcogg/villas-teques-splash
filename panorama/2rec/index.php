@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+	<?php
+	require('../../preloader.php')
+	?>
 	<head>
 		<title>Terra Verde Juriquilla - Modelo Olmo</title>
 		<meta charset="utf-8">

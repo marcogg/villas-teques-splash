@@ -57,22 +57,22 @@
 				<div class="row">
 					<div class="col s12">
 						<h2 class="pink-text text-lighten-5 flow-text text-uppercase text900" style="font-size: 5rem;">¡Tú eliges!</h2>
-						<h3 class="pink-text text-lighten-5 flow-text text600">Escoge entre jardín o roof garden privado</h3>
+						<h3 class="pink-text text-lighten-5 flow-text text600">Escoge entre jardín o terraza privado</h3>
 					</div>
 				</div>
-				<!-- BEGIN: RUEDAS ANIMACION -->
-				<div class="contenedor-ruedas">
-					<div  id="ruedas">
-						<img src="img/circulos.png">
-					</div>
-				</div>
-				<!-- END: RUEDAS ANIMACION -->
+				<!-- BEGIN: TRIANGLES ANIMACION -->
+				<div class="trianglesBg">
+							<div id="triangle-up1"></div>
+							<div id="triangle-up2"></div>
+							<div id="triangle-up3"></div>
+						</div>
+				<!-- END: TRIANGLES ANIMACION -->
 				<!-- BEGIN: TABS -->
 				<div class="row">
 					<div class="col s12">
 						<ul class="tabs">
 							<li class="tab col s12 m6 l6"><a href="#garden" class="active"><i class="fas fa-leaf fa-2x"></i><b> JARDÍN</b> - 2 Rec.</a></li>
-							<li class="tab col s12 m6 l6"><a href="#roof"><i class="fas fa-umbrella-beach fa-2x"></i> <b>ROOF</b> -  2 Rec.</li>
+							<li class="tab col s12 m6 l6"><a href="#roof"><i class="fas fa-umbrella-beach fa-2x"></i> <b>TERRAZA</b> -  2 Rec.</li>
 						</ul>
 					</div>
 					<!-- BEGIN: DEPARTAMENTO DE 2 RECs -->
@@ -87,7 +87,7 @@
 							</div>
 							<div class="col s12 m5 l5">
 								<span class="pink-text text-lighten-5 flow-text">
-									<h3 class="text900 purple-text text-darken-4 text-uppercase">Con Jardín i</h3>
+									<h3 class="text900 purple-text text-darken-4 text-uppercase">Con Jardín Privado</h3>
 									<p class="text900 purple-text text-darken-4 text-uppercase flow-text">Área Depto: 61.40 m<sup>2</sup> + Jardín</p>
 									<table>
 										<tbody>
@@ -217,8 +217,8 @@
 							<div class="modal-content">
 								<h4>Amplía tu depa a 3 recámaras</h4>
 								<picture>
-									<source srcset="img/prototipos/3recs" type="img/jpg" class="responsive-img">
-									<source srcset="img/prototipos/3recs" type="img/webp" class="responsive-img">
+									<source srcset="img/prototipos/3recs.png" type="img/png" class="responsive-img">
+									<source srcset="img/prototipos/3recs.webp" type="img/webp" class="responsive-img">
 									<img src="img/prototipos/3recs.png" class="responsive-img">
 								</picture>
 							</div>
@@ -233,9 +233,9 @@
 							<div id="diamond-narrow2"></div>
 						</div>
 						<picture>
-							<source srcset="img/inmuebles-morelos" type="img/jpg" class="paralelogram-clip responsive-img">
-							<source srcset="img/inmuebles-morelos" type="img/webp" class="paralelogram-clip responsive-img">
-							<img src="img/inmuebles-morelos" class="paralelogram-clip responsive-img">
+							<source srcset="img/inmuebles-morelos.jpg" type="img/jpg" class="paralelogram-clip responsive-img">
+							<source srcset="img/inmuebles-morelos.webp" type="img/webp" class="paralelogram-clip responsive-img">
+							<img src="img/inmuebles-morelos.jpg" class="paralelogram-clip responsive-img">
 						</picture>
 					</div>
 				</div>

@@ -22,20 +22,20 @@
 				<p>Y descarga más información de Villas Teques Splash</p>
 				<!-- BEGIN: BROCHURE FORM -->
 				<div class="row">
-					<form class="col s12">
+					<form class="col s12" method="post" action="descargar_folleto.php" name="brochureform">
 						<div class="row">
 							<div class="input-field col s12">
-								<input placeholder="Placeholder" id="name" type="text" class="validate">
+								<input placeholder="Tu nombre aquí" id="brochure-name" type="text" class="validate" name="brochure-name">
 								<label for="name">Nombre y apellido</label>
 							</div>
 							<div class="input-field col s12">
-								<input id="phone" type="text" class="validate">
+								<input id="brochure-phone" type="text" class="validate" name="brochure-phone">
 								<label for="phone">Teléfono</label>
 							</div>
 						</div>
 						<div class="row">
 							<div class="input-field col s12">
-								<input id="email" type="email" class="validate">
+								<input id="brochure-email" type="email" class="validate" name="brochure-email">
 								<label for="email">Email</label>
 							</div>
 						</div>

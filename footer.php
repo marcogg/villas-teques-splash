@@ -28,24 +28,24 @@
 				<h4 class="pink-text text-lighten-4"><b>Contáctanos</b></h4>
 				<form class="col s12 pink-text text-lighten-4">
 					<div class="row">
-						<div class="input-field col s12 pink-text text-lighten-4">
+						<div class="input-field col s12 pink-text text-lighten-4 text-flow">
 							<input placeholder="Tu nombre aquí" id="name_contact" type="text" class="validate">
 							<label for="name">Nombre y apellido</label>
 						</div>
-						<div class="input-field col s12 pink-text text-lighten-4">
+						<div class="input-field col s12 pink-text text-lighten-4 text-flow">
 							<input id="phone_contact" type="text" class="validate">
 							<label for="phone">Teléfono</label>
 						</div>
 					</div>
 					<div class="row">
-						<div class="input-field col s12 pink-text text-lighten-4">
+						<div class="input-field col s12 pink-text text-lighten-4 text-flow">
 							<input id="email_contact" type="email" class="validate">
 							<label for="email">Email</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<textarea id="textarea1" class="materialize-textarea"></textarea>
+							<textarea id="textarea1" class="materialize-textarea text-flow"></textarea>
 							<label for="textarea1">Mensaje</label>
 						</div>
 					</div>
@@ -58,6 +58,14 @@
 			</div>
 		</div>
 	</div>
+	<!-- WHATSAPP BUTTON -->
+<div style="background-color:#26a69a; width: 60px; height:60px; border-radius: 50%; position:fixed; top: 80vh; left: 5px; z-index:50000; display: block; ">
+	<div style="margin: auto; display: block; position: relative; left: 18%; top: 13%">
+		<a href="https://wa.me/525539019485">
+			<i class="fab fa-whatsapp fa-3x" style="color:white;"></i>
+		</a>
+	</div>
+</div>
 </footer>
 <!-------------------- SCRIPTS ---------------------->
 <!-- AOS: ANIMATION SCROLL JS -->

@@ -38,7 +38,7 @@
 							<!-- BEGIN:SLIDER 2 -->
 							<div class="carousel-item white-text" href="#two!">
 								<div class="caption-slider2">
-									<h2 style="font-size: 5rem;">de 2 recámaras</h2>
+									<h2 style="font-size: 4rem; line-height: 3.5rem;">de 2 recámaras</h2>
 									<p class="white-text">Con opción a 3<sup>a</sup></p>
 								</div>
 								
@@ -48,7 +48,7 @@
 							<!-- BEGIN:SLIDER 3 -->
 							<div class="carousel-item white-text" href="#three!">
 								<div class="caption-slider3">
-									<h2 style="font-size: 5rem;">Amenidades Increíbles</h2>
+									<h2 style="font-size: 4rem; line-height: 3.5rem;">Amenidades Increíbles</h2>
 									<p class="white-text">Aquazona, Alberca, Palapa, juegos y más.</p>
 								</div>
 								

@@ -151,7 +151,36 @@ footer{
  }
 
  /*BEGIN: MOBILE SLIDER 2*/
+		 @media screen and (max-width: 992px){
+		 	.webp .slider2{
+			background-image: url('../img/slider/inmuebles-morelos.webp');
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+		  	clip-path: /*circle(26% at 38%);*/polygon(0% 0%, 100% 0%, 100% 100%, 69% 79%, 0% 100%);
+		  	background-attachment: fixed;
+		  	filter: saturate(1.5);
+		}
 
+			.no-webp .slider2{
+				background-image: url('../img/slider/inmuebles-morelos.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+			  	clip-path: circle(26% at 38%);/*polygon(0% 0%, 100% 0%, 100% 100%, 69% 79%, 0% 100%)*/
+			  	background-attachment: fixed;
+			  	filter: saturate(1.5);
+			}
+
+			.caption-slider2{
+			 	position: absolute;
+			 	top: 25%;
+			 	left: 7%;
+			 	z-index: 5;
+			 	font-weight: 800 !important;
+				font-size: 3.5rem !important;
+			 /*	-webkit-text-stroke: 1px white;*/
+			 }
+		}
 
 /*SLIDER 3*/
 .webp .slider3{
@@ -175,9 +204,41 @@ footer{
  	left: 30%;
  	z-index: 5;
  	font-weight: 800 !important;
-	font-size: 5rem !important;
+	font-size: 4rem !important;
  /*	-webkit-text-stroke: 1px white;*/
  }
+ /*BEGIN: MOBILE SLIDER 3*/
+		 @media screen and (max-width: 992px){
+		 	.webp .slider3{
+			background-image: url('../img/slider/aquazona-chica.webp');
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+		  	clip-path: /*circle(26% at 38%);*/polygon(0% 0%, 100% 0%, 100% 100%, 69% 79%, 0% 100%);
+		  	background-attachment: fixed;
+		  	filter: saturate(1.5);
+		}
+
+			.no-webp .slider3{
+				background-image: url('../img/slider/aquazona-chica.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+			  	clip-path: circle(26% at 38%);/*polygon(0% 0%, 100% 0%, 100% 100%, 69% 79%, 0% 100%)*/
+			  	background-attachment: fixed;
+			  	filter: saturate(1.5);
+			}
+
+			.caption-slider3{
+			 	position: absolute;
+			 	top: 25%;
+			 	left: 0%;
+			 	z-index: 5;
+			 	font-weight: 800 !important;
+				font-size: 7rem !important;
+			 /*	-webkit-text-stroke: 1px white;*/
+			 }
+		}
+
 /*SLIDER 4*/
 .webp .slider4{
 	background-image: url('../img/slider/lago-tequesquitengo.webp');
@@ -203,6 +264,38 @@ footer{
 	font-size: 4rem !important;
  /*	-webkit-text-stroke: 1px white;*/
  }
+
+ /*BEGIN: MOBILE SLIDER 4*/
+		 @media screen and (max-width: 992px){
+		 	.webp .slider4{
+			background-image: url('../img/slider/lago-tequesquitengo.webp');
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+		  	clip-path: /*circle(26% at 38%);*/polygon(0% 0%, 100% 0%, 100% 100%, 69% 79%, 0% 100%);
+		  	background-attachment: fixed;
+		  	filter: saturate(1.5);
+		}
+
+			.no-webp .slider4{
+				background-image: url('../img/slider/lago-tequesquitengo.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+			  	clip-path: circle(26% at 38%);/*polygon(0% 0%, 100% 0%, 100% 100%, 69% 79%, 0% 100%)*/
+			  	background-attachment: fixed;
+			  	filter: saturate(1.5);
+			}
+
+			.caption-slider4{
+			 	position: absolute;
+			 	top: 25%;
+			 	left: 0%;
+			 	z-index: 5;
+			 	font-weight: 800 !important;
+				font-size: 7rem !important;
+			 /*	-webkit-text-stroke: 1px white;*/
+			 }
+		}
 
  /*END: SLIDERS*/
  .carousel h2{
@@ -665,7 +758,7 @@ td{
 
 	.slider-depas{
 		position: relative !important;
-		top: 20% !important;
+		top: 3% !important;
 	}
 }
 
@@ -712,6 +805,10 @@ td{
 .visitanos{
 	padding: 5%;
 }
+
+#medios a{
+	color: white !important;
+}
 /*END:CONTACTO*/
 
 /*FOOTER*/
@@ -730,4 +827,14 @@ td{
 footer a{
 	color: #ff7ee5 !important;
 	font-weight: 900;
+}
+
+footer label{
+	color: white !important;
+}
+
+footer input[type=text], footer input[type=email], footer textarea{
+	color: #f8bbd0;
+	border-bottom: 1px solid #ffffff !important;
+
 }

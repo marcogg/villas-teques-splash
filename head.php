@@ -35,7 +35,7 @@ crossorigin="anonymous"></script>
 <!-- AOS: ANIMATION SCROLL JS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!--BEGIN: PRELOADER-->
-	<?php
-	require('preloader.php');
-	?>
+<?php
+require('preloader.php');
+?>
 <!--END:Preloader-->

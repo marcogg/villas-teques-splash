@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Amenidades-Villas Teques Splash</title>
+		<title>Amenidades - Villas Teques Splash</title>
 		<?php
 		require ('head.php');
 		?>
@@ -18,29 +18,29 @@
 							<div class="carousel carousel-slider">
 								<a class="carousel-item min-height" href="#one!">
 									<picture>
-										<source srcset="img/slider/slider-amenidades/privada" type="img/jpg" class="responsive-img down-clip slider-depas">
-										<source srcset="img/slider/slider-amenidades/privada" type="img/webp" class="responsive-img down-clip slider-depas">
+										<source srcset="img/slider/slider-amenidades/privada.jpg" type="img/jpg" class="responsive-img down-clip slider-depas">
+										<source srcset="img/slider/slider-amenidades/privada.webp" type="img/webp" class="responsive-img down-clip slider-depas">
 										<img src="img/slider/slider-amenidades/privada.jpg" class="responsive-img down-clip slider-depas">
 									</picture>
 								</a>
 								<a class="carousel-item min-height" href="#two!">
 									<picture>
-										<source srcset="img/slider/slider-amenidades/aquazona" type="img/jpg" class="responsive-img down-clip slider-depas">
-										<source srcset="img/slider/slider-amenidades/aquazona" type="img/webp" class="responsive-img down-clip slider-depas">
+										<source srcset="img/slider/slider-amenidades/aquazona.jpg" type="img/jpg" class="responsive-img down-clip slider-depas">
+										<source srcset="img/slider/slider-amenidades/aquazona.webp" type="img/webp" class="responsive-img down-clip slider-depas">
 										<img src="img/slider/slider-amenidades/aquazona.jpg" class="responsive-img down-clip slider-depas">
 									</picture>
 								</a>
 								<a class="carousel-item min-height" href="#three!">
 									<picture>
-										<source srcset="img/slider/slider-amenidades/soccer" type="img/jpg" class="responsive-img down-clip slider-depas">
-										<source srcset="img/slider/slider-amenidades/soccer" type="img/webp" class="responsive-img down-clip slider-depas">
+										<source srcset="img/slider/slider-amenidades/soccer.jpg" type="img/jpg" class="responsive-img down-clip slider-depas">
+										<source srcset="img/slider/slider-amenidades/soccer.webp" type="img/webp" class="responsive-img down-clip slider-depas">
 										<img src="img/slider/slider-amenidades/soccer.jpg" class="responsive-img down-clip slider-depas">
 									</picture>
 								</a>
 								<a class="carousel-item min-height" href="#four!">
 									<picture>
-										<source srcset="img/slider/slider-amenidades/juegos" type="img/jpg" class="responsive-img down-clip slider-depas">
-										<source srcset="img/slider/slider-amenidades/juegos" type="img/webp" class="responsive-img down-clip slider-depas">
+										<source srcset="img/slider/slider-amenidades/juegos.jpg" type="img/jpg" class="responsive-img down-clip slider-depas">
+										<source srcset="img/slider/slider-amenidades/juegos.webp" type="img/webp" class="responsive-img down-clip slider-depas">
 										<img src="img/slider/slider-amenidades/juegos.jpg" class="responsive-img down-clip slider-depas">
 									</picture>
 								</a>
@@ -121,14 +121,14 @@
 		</section>
 		<!-- END: AMENIDADES DEL DESARROLLO -->
 		<!-- BEGIN: AMENIDADES DE LA PRIVADA -->
-		<div class="triangle-separator" 
-		style="width: 100%;
-  height: 0;
-  border-left: 700px solid transparent;
-  border-right: 700px solid transparent;
-  border-bottom: 80px solid #ab0cc7;
-  position: relative;
-  margin-top: 2%;">
+		<div class="triangle-separator"
+			style="width: 100%;
+			height: 0;
+			border-left: 700px solid transparent;
+			border-right: 700px solid transparent;
+			border-bottom: 80px solid #ab0cc7;
+			position: relative;
+			margin-top: 2%;">
 		</div>
 		<section style="padding: 3%; background-color: #ab0cc7;">
 			<div class="container">
@@ -183,18 +183,17 @@
 								</li>
 							</ul>
 						</div>
-
 					</div>
 				</div>
 			</div>
 		</section>
 		<div style="width: 100%;
-  height: 0;
-  border-left: 700px solid transparent;
-  border-right: 700px solid transparent;
-  border-top: 80px solid #ab0cc7;
-  position: relative;
-  margin-bottom: 2%;">
+			height: 0;
+			border-left: 700px solid transparent;
+			border-right: 700px solid transparent;
+			border-top: 80px solid #ab0cc7;
+			position: relative;
+			margin-bottom: 2%;">
 		</div>
 		<!-- END: AMENIDADES DE LA PRIVADA -->
 		<!-- BEGIN:LAGO DE TEQUES -->
@@ -219,13 +218,13 @@
 					</div>
 					<div class="col s12 m6 l6">
 						<img src="img/actividades-acuaticas.jpg" class="circle-path responsive-img">
-						<img src="img/conciertos.jpg" class="circle-path responsive-img" style="position: relative; top: -15%; left: 60px;">
+						<img src="img/conciertos.jpg" class="circle-path responsive-img" style="position: relative; top: -80px; left: 60px;">
 						<div class="contenedor-donas">
 							<div id="dona1"></div>
 							<div id="dona2"></div>
 							<div id="raya"></div>
 						</div>
-					</div>	
+					</div>
 				</div>
 				
 			</div>

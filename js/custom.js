@@ -22,9 +22,9 @@ $(window).on('load', function(
     fullWidth: true,
     indicators:true
   });
-     /*setInterval(function(){
+     setInterval(function(){
      	$('.carousel').carousel('next');
-     }, 3000);*/
+     }, 4000);
 
      //SIDENAV
     $('.sidenav').sidenav();
